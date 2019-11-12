@@ -148,6 +148,7 @@ h5 {
   font-family: "Rubik", sans-serif;
 }
 
+
 p {
   line-height: 1.4;
 }
@@ -166,6 +167,7 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  
 }
 nav {
   justify-content: flex-start;
@@ -353,47 +355,47 @@ button {
 button:hover {
     color: red;
 }
-body > section {
-    
-  width: 800px;
-  margin: 0 auto;
-  padding: 0px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
+body > section {   
+    width: 800px;
+    margin: 0 auto;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 .about {
-  
-  width: 800px;
-  height: fit-content;
-  margin: 10px;
-  
-  vertical-align: baseline;
+    width: 800px;
+    height: fit-content;
+    margin: 10px;
+    vertical-align: baseline;
 }
 
 .strategy {
   
-  width: min-content;
-  height: fit-content;
-  padding: 10px;
+    width: min-content;
+    height: fit-content;
+    padding: 10px;
 }
 .howwework {
-  
-  width: min-content;
-  height: fit-content;
-  padding: 10px;
+    
+    width: min-content;
+    height: fit-content;
+    padding: 10px;
 }
 .places {
   
-  width: min-content;
-  height: fit-content;
-  padding: 10px;
+    width: min-content;
+    height: fit-content;
+    padding: 10px;
+}
+img {
+    border: 2px solid green;
 }
 .collaboration {
   
-  width: min-content;
-  height: fit-content;
-  padding: 10px;
+    width: min-content;
+    height: fit-content;
+    padding: 10px;
 }
  .together {
     
@@ -402,11 +404,19 @@ body > section {
     padding: 10px;
  }
  .master2 {     
-  width: 800px;
-  height: fit-content;
-  margin: 0 auto px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  text-align: center;
+    width: 800px;
+    height: fit-content;
+    margin: 0 auto px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
  }
+ .telefono {
+    border:5px solid black;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    
+}
